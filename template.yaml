@@ -1,0 +1,10 @@
+name: template-test
+description: Describe your template explaining its purpose
+types:
+  - app-template
+  - env-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
